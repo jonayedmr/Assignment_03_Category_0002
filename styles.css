@@ -243,6 +243,18 @@
         
       }
   }
+  .extra-banner{
+    display: flex;
+    background: linear-gradient( rgb(255, 255, 255) 0%, rgb(145, 232, 116) 100%);
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 16px;
+    gap: 50px;
+    
+    
+  }
   
   .service-box{
     
@@ -282,14 +294,14 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    width: 150%;
+    width: 66%;
     /* margin: auto; */
   }
   .pad{
     padding: 2.5%;
   }
   .single{
-    width: 40%;
+    flex: 1;
     border-radius: 10px;
     padding: 0px 2%;
     background-image: linear-gradient(to bottom right, rgb(84, 215, 63), rgb(255, 255, 255));
@@ -364,7 +376,13 @@
       margin: 10px;
       padding: 10px;
     }
+    .extra-banner{
     
+      flex-direction: column;
+      gap: 20px;
+      padding: 10px;
+      border-radius: 10px;
+    }
     .box-container{
       flex-direction:column;
       text-align: center;
