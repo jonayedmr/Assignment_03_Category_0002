@@ -8,7 +8,16 @@
     font-style: normal;
   }
 /* animation */
-
+@keyframes colorChange {
+    0% { color: red; }
+    25%{ color: orange; }
+    50% { color:green; }
+    100% { color: darkorange; }
+}
+.color-changing-text {
+    font-size: 20px;
+    animation: colorChange 3s infinite;
+}
 
 
 
@@ -58,9 +67,7 @@
     gap: 32px;
     align-items: center;
   }
-  footer ul{
-  
-  }
+
    ul li{
     list-style: none;
     
@@ -92,6 +99,7 @@
         
         }
     .btn-grn{
+        margin: 20px;
         font-weight:semi-bold;
         font-size: 18px;
         color: rgb(255, 255, 255);
@@ -100,16 +108,17 @@
         background-color: #6eb76d;;
         border: none;
         }
-  .btn-blue{
-    font-weight:semi-bold;
-    font-size: 18px;
-    color: rgb(255, 255, 255);
-    padding: 15px 30px;
-    border-radius: 14px;
-    background-color:#2A4D97;
-    border: none;
-    }
- 
+    .btn-blue{
+        margin: 20px;
+        font-weight:semi-bold;
+        font-size: 18px;
+        color: rgb(255, 255, 255);
+        padding: 15px 30px;
+        border-radius: 14px;
+        background-color:#2A4D97;
+        border: none;
+        }
+    
 
     button{
       border: none;
@@ -134,10 +143,7 @@
     margin-top: 140px;
     margin-bottom: 140px;
   }
-  .banner-intro{ 
-      font-size: 20px;
-      
-      } 
+ 
   /* boxes */
   .container{
     margin-left: 140px  ; 
@@ -313,7 +319,11 @@
   }
   
   
-  
+  .offer-text{
+    font-size: 32px;
+    font-weight:lighter ;
+    margin: 10px;
+}
   
   @media screen and (max-width: 576px){
     
@@ -334,7 +344,7 @@
     ul{
       margin-left: -40px;
     }
-    
+   
     nav ul{
       
       display: none;
@@ -352,9 +362,11 @@
       width: 100%;
     }
    .offer-box1, .offer-box{
+      height: auto;
       width: 100%;
       padding: 10px;
-      justify-content: space-between;
+      justify-content: left;
+      flex-direction: row;
       
     }
     .midd{
@@ -378,10 +390,11 @@
       gap: 20px;
       padding: 10px;
       border-radius: 10px;
+      flex-direction: column-reverse;
     }
     .box-container{
       flex-direction:column;
-      text-align: center;
+      text-align: justify;
       gap: 24px;
     }
     .service-box{
@@ -402,6 +415,7 @@
   .single{
     width: 100%;
   }
+  
   .subs-container{
     flex-direction: column;
     width: auto;
