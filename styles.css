@@ -1,0 +1,344 @@
+
+/* font */
+
+
+
+
+
+.sora-normal{
+    font-family: "Sora", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .display-hidden{
+    display: none;
+  }
+  .blue-text {
+    color: #00b1f1;
+    
+  }
+  .green-text {
+    color: #179800;
+  }
+  .attached{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .attached-foot{
+    display: flex;
+    
+  }
+  .foot-title{
+    font-size: 24px;
+    font-weight: bold;
+  }
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 141px;
+    
+  }
+  
+  
+  .navtilte{
+    display: flex;
+    font-weight: bold;
+    font-size: 32px;
+  }
+  nav ul{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+  }
+  footer ul{
+  
+  }
+   ul li{
+    list-style: none;
+    
+      gap: 10px;
+      margin-bottom: 15px;
+    
+  }
+  nav li {
+    font-size: 20px;
+  }
+  /* buttons */
+  .btn-primary{
+    font-weight:semi-bold;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    padding: 10px 30px;
+    border-radius: 8px;
+    background-color: #179800;
+    border:  #179800 solid;
+    }
+    .btn-white{
+        font-weight:semi-bold;
+        font-size: 20px;
+        padding: 10px 30px;
+        border-radius: 8px;
+        border-width: 1px;
+        border: #179800 solid;
+        
+        }
+  .btn-black{
+    font-weight:semi-bold;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    padding: 15px 30px;
+    border-radius: 12px;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    }
+  .btn-story{
+    border-radius: 48px;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    padding:10px ;
+    background-color: #5D58F0;
+    border: none;
+    margin-bottom: 60px;
+    margin-left: 38px;
+    
+  }
+  .btn-ball{
+      height: 60px;
+      width: 60px;
+      font-size: 24px;
+      color: white;
+      border-radius:30px;
+      background-color: orange;
+      border: none;
+    }
+    button{
+      border: none;
+      background-color: transparent;
+    }
+    button:hover{
+      /* border: none; */
+      background-color: rgb(98, 168, 84);
+      /* border-radius: 50%; */
+    }
+  
+  .banner-title{ 
+      font-size: 56px;
+      font-weight: bold;
+      }
+  .section-title{
+    font-size: 46px;
+    font-weight: bold;
+    
+  }
+  .margin{
+    margin-top: 60px;
+    margin-bottom: 80px;
+  }
+  .banner-intro{ 
+      font-size: 20px;
+      
+      } 
+  /* boxes */
+  .container{
+    margin-left: 140px  ; 
+    margin-right: 140px;
+    
+  }
+  .story-box{
+     display: flex;
+     gap: 30px; 
+  }
+  .center-align{
+    text-align: center;
+  }
+  .box-container{
+    display: flex;
+    justify-content: ;
+    gap: 50px;
+    /* align-items: flex-start; */
+  
+  }
+  .box1{
+    width: 75%;
+    display: flex;
+  }
+  .box{
+    width: 75%;
+    
+    /* display: flex; */
+  }
+  footer{
+    padding: 123px 128px 174px 140px;
+    background-color: #01ACFD;
+    color: white;
+    ;
+  }
+  .foot-container{
+    display: flex;
+    justify-content: space-between;
+    /* flex: 1;  */
+  }
+  .banner{
+    background: linear-gradient(rgb(255, 255, 255) 0%, rgb(239, 235, 227) 100%);
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+    img{
+        max-width: 100%;
+        max-height: 100%;
+        
+      }
+  }
+  
+  .service-box{
+    img{
+        border-radius: 50%;
+        padding: 5%;
+        background-color: rgb(255, 255, 255);
+    }
+    width: 367px;
+    height: auto;
+    background-color: #EFEBE3;
+    border-radius:16px ;
+    
+  }
+  .smooth img{
+    border-radius: 16px 16px 0px 0px;
+    background-color: rgb(255, 255, 255);
+    
+  }
+  .smooth{
+    gap: 20px;
+    border-radius: 16px;
+    background-color: rgb(255, 255, 255);
+  }
+  /* .ele-box{
+   
+    width: 367px;
+    height: auto;
+    background: linear-gradient(rgb(255, 244, 220) 10%, rgb(255, 255, 255) 50%);
+    border-radius:18px ;
+  } */
+  .midd{
+    position: absolute;
+    margin-top: -30px;
+  }
+  /* .mid-box{
+    
+    width: 367px;
+    height: auto;
+    background: linear-gradient(rgb(244, 232, 255) 0%, rgb(255, 255, 255) 35%);
+    border-radius:18px ;
+  } */
+  .square{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    
+    
+    
+  }
+  .pad{
+    padding: 2.5%;
+  }
+  
+  .grad{
+    
+    background: linear-gradient(to top, rgb( 254 ,163,1) 0%, rgb(255, 255, 255) 30% ), url('./assets/bg.png');
+    background-size: cover;
+    flex: 1;
+  }
+  
+  
+  
+  
+  @media screen and (max-width: 576px){
+    
+    img{
+      max-width: 100%;
+      max-height: 100%;
+      
+    }
+    nav {
+      margin: 20px 20px;
+      border-bottom: black;
+      border-width: 2px;
+    }
+    .navtilte, .btn-ball, .single{
+      
+      display: none;
+    }
+    ul{
+      margin-left: -40px;
+    }
+    
+    nav ul{
+      
+      display: none;
+    }
+    nav li {
+      font-size: 16px;
+      padding: 5px;
+      display: none;
+      
+    }
+    
+    .btn-story{
+      margin-left: none;
+      font-size: 9px;
+      
+    }
+    .midd{
+      position: absolute;
+      margin-top: -20px;
+      margin-left: -40px;
+    }
+    .btn-primary{
+      font-size: 16px;
+      padding: 12px 24px;
+    }
+    .container{
+      margin: 6px;
+      text-align: center;
+      padding: 10px;
+    }
+    
+    .box-container{
+      flex-direction: column;
+      gap: 24px;
+    }
+    .service-box{
+      width: 80%;
+      text-align: center;
+    
+      
+    }
+    .display-hidden{
+      display: flex;
+      border-bottom: black;
+      border-width: 2px;
+    }
+    .banner-title{ 
+      font-size: 36px;
+      font-weight: bold;
+      }
+  
+    .section-title{
+      font-size: 26px;
+      font-weight: bold;
+      margin-top: 20px;
+      margin-bottom: 40px;
+    }
+    .foot-container{
+      flex-direction: column;
+        
+    }
+    footer{
+      padding: 20px;
+      flex-direction: column-reverse;;
+    }
+  }
