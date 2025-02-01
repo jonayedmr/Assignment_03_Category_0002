@@ -78,6 +78,7 @@
     border:  #179800 solid;
     }
     .btn-white{
+        background-color: rgb(255, 255, 255);
         font-weight:semi-bold;
         font-size: 20px;
         padding: 10px 30px;
@@ -95,26 +96,8 @@
     background-color: rgb(0, 0, 0);
     border: none;
     }
-  .btn-story{
-    border-radius: 48px;
-    font-size: 16px;
-    color: rgb(255, 255, 255);
-    padding:10px ;
-    background-color: #5D58F0;
-    border: none;
-    margin-bottom: 60px;
-    margin-left: 38px;
-    
-  }
-  .btn-ball{
-      height: 60px;
-      width: 60px;
-      font-size: 24px;
-      color: white;
-      border-radius:30px;
-      background-color: orange;
-      border: none;
-    }
+ 
+
     button{
       border: none;
       background-color: transparent;
@@ -148,7 +131,7 @@
     margin-right: 140px;
     
   }
-  .story-box{
+  .product-box{
      display: flex;
      gap: 30px; 
   }
@@ -172,14 +155,16 @@
     /* display: flex; */
   }
   footer{
-    padding: 123px 128px 174px 140px;
-    background-color: #01ACFD;
+    padding: 370px 140px 140px 140px;
+    background-color: #179800;
     color: white;
     ;
   }
   .foot-container{
     display: flex;
     justify-content: space-between;
+    /* gap: 50px; */
+    align-items: self-end;
     /* flex: 1;  */
   }
   .banner{
@@ -207,50 +192,49 @@
     
   }
   .smooth img{
-    border-radius: 16px 16px 0px 0px;
-    background-color: rgb(255, 255, 255);
+    /* width: 30%; */
+    /* height: auto; */
+    border-radius: 10px;
+    background-color: rgb(223, 223, 223);
     
   }
-  .smooth{
+  .smooth, .smooth-last{
+    display: flex;
+    align-items: center;
+    padding: 16px;
     gap: 20px;
-    border-radius: 16px;
+    border-radius: 10px;
     background-color: rgb(255, 255, 255);
   }
-  /* .ele-box{
-   
-    width: 367px;
-    height: auto;
-    background: linear-gradient(rgb(255, 244, 220) 10%, rgb(255, 255, 255) 50%);
-    border-radius:18px ;
-  } */
+ 
   .midd{
     position: absolute;
     margin-top: -30px;
   }
-  /* .mid-box{
-    
-    width: 367px;
-    height: auto;
-    background: linear-gradient(rgb(244, 232, 255) 0%, rgb(255, 255, 255) 35%);
-    border-radius:18px ;
-  } */
+ 
   .square{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    
-    
-    
+    width: 150%;
+    /* margin: auto; */
   }
   .pad{
     padding: 2.5%;
   }
-  
+  .single{
+    border-radius: 10px;
+    padding: 0px 2%;
+    background-image: linear-gradient(to bottom right, rgb(84, 215, 63), rgb(255, 255, 255));
+    
+      
+  }
   .grad{
     
-    background: linear-gradient(to top, rgb( 254 ,163,1) 0%, rgb(255, 255, 255) 30% ), url('./assets/bg.png');
-    background-size: cover;
-    flex: 1;
+    background: rgb(239, 235, 227) 100%;
+    padding: 140px 0px;
+    
+    
   }
   
   
@@ -268,7 +252,7 @@
       border-bottom: black;
       border-width: 2px;
     }
-    .navtilte, .btn-ball, .single{
+    .navtilte, .smooth-last{
       
       display: none;
     }
@@ -286,12 +270,13 @@
       display: none;
       
     }
-    
-    .btn-story{
-      margin-left: none;
-      font-size: 9px;
-      
+    .product-box{
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      width: 100%;
     }
+   
     .midd{
       position: absolute;
       margin-top: -20px;
@@ -303,7 +288,8 @@
     }
     .container{
       margin: 6px;
-      text-align: center;
+      /* text-align: center; */
+      margin: auto;
       padding: 10px;
     }
     
@@ -333,12 +319,20 @@
       margin-top: 20px;
       margin-bottom: 40px;
     }
+    .square{
+        /* display: flex; */
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+        
+        /* margin: auto; */
+      }
     .foot-container{
       flex-direction: column;
-        
+      align-items: self-start;
     }
     footer{
-      padding: 20px;
-      flex-direction: column-reverse;;
+      padding-left: -130px;
+      margin-left: -130px;
+      /* flex-direction: column-reverse; */
     }
   }
