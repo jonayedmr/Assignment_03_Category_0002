@@ -168,6 +168,36 @@
     /* align-items: flex-start; */
   
   }
+  .subs-input{
+    width:100%;
+   
+    border: hidden;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+    margin: 32px 0px 32px 0px;
+    /* margin-bottom: 32px; 
+    margin-right: 0px; */
+    font-size: 20px; 
+    padding: 20px;
+    border-radius: 16px;
+    
+  }
+  .form-inline {  
+    display: inline;
+    align-items: center;
+        
+  }
+  .subs-container{
+    position: relative;
+    display: flex;
+    background-color: #EFEBE3;  
+    border-radius: 16px;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 55px;
+    align-items: center;
+    margin: 0px 140px -15% 140px;
+    z-index: 1;
+  }
   .offer-box1{
     padding: 20px ;
     width: 40%;
@@ -354,7 +384,15 @@
       font-size: 36px;
       font-weight: bold;
       }
-  
+  .single{
+    width: 100%;
+  }
+  .subs-container{
+    flex-direction: column;
+    width: auto;
+    margin: 0px 20px -50% 20px;  
+
+  }
     .section-title{
       font-size: 26px;
       font-weight: bold;
