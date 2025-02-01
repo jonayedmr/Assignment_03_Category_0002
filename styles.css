@@ -245,15 +245,16 @@
   }
   
   .service-box{
+    
+    width: 367px;
+    height: auto;
+    background-color: #EFEBE3;
+    border-radius:16px ;
     img{
         border-radius: 50%;
         padding: 5%;
         background-color: rgb(255, 255, 255);
     }
-    width: 367px;
-    height: auto;
-    background-color: #EFEBE3;
-    border-radius:16px ;
     
   }
   .smooth img, .smooth-last img{
